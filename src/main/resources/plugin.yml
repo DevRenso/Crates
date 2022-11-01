@@ -1,0 +1,4 @@
+name: Crate
+version: ${project.version}
+main: dev.renso.crates.CratesPlugin
+authors: [DevRenso]

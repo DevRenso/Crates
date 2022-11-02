@@ -7,8 +7,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
+import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.bukkit.inventory.ItemStack;
 
 import java.util.Random;
 
@@ -30,5 +31,16 @@ public class CratesListener implements Listener {
 
         }
     }
+
+    @EventHandler
+    public void onPlace(BlockPlaceEvent e){
+
+    }
+
+    @EventHandler
+    public void onBreak(BlockBreakEvent e){
+
+    }
+
 
 }
